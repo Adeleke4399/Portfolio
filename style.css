@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #163015;
+    color: #fff;
+    
+}
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+.context{
+    padding: 10px 10%;
+}
+
+nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 100px;
+    border-radius: 80px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a{
+    color: #f70e49;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #110c0d;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.header-text{
+    margin:20px;
+    font-size: 30px;
+    color: #fff;
+}
+.header-text hi{
+    font-size:60px;
+    margin-top: 20px;
+}
+.header-text h1 span {
+    color: #c30808d5;
+}
+
+.full{
+    color:#f70e49;
+    font-size: 40px;
+    font-weight: 500;
+}
+/* ---------about--------- */
+#aboutus{
+        width: 100%;
+        height: 100vh;
+        background-image: url(Images/About\ me.jpg);
+        background-size: cover;
+        background-position: center;
+        
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+#container h1 {
+    margin:5px;
+    font-size: 30px;
+    font-weight: 50px;
+    color:#f70e49;
+}
+
+#container{
+    padding: 20px 30px;
+    border: 20px 20px 20px 20px;
+    margin-top: 40px;
+    font-size: 15px;
+    color:#fff;
+    text-align: center;
+}
+  a{
+    font-size: 20px;
+    color: #f70e49;
+    text-decoration: none;
+}
+
+  a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #110c0d;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+     .backtotop a:hover::after{
+        width: 100%;
+    }
+
+    /* --------Portfolio------ */
+    #portfolio{
+        width: 100%;
+        height: 100vh;
+        background-image: url(Images/background.jpg);
+        background-size: cover;
+        background-position: center;
+        position: scroll;
+}
+#title{
+    padding:20px;
+    margin:10px;
+}
+#title h1 {
+    font-size: 60px;
+    color:#f70e49;
+    font-weight: 400;
+}
+#title p {
+    border: 200px;
+    font-size: 20px;
+    color: #000000f1;
+}
+
+.mywork{
+    border:1px solid #000000;
+    width: 400px;
+    margin: 10px;
+    border-radius: 50px;
+}
+.mywoork{
+    border:2px solid #0d0404;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.btn{
+    background: #000;
+    border: 30px;
+    color:#f70e49;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.btn:hover{
+    background: #ffffff;
+}
+
+/* -------contact------ */
+#contact{
+        width: 100%;
+        height: 100vh;
+        background-image: url(Images/background.jpg);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        color: #ffffff;
+        font-size: 18px;
+        box-sizing: border-box;
+}
+#contact{
+    padding:20px;
+}
+
+.contact{
+    position:relative;
+    min-height: 50vh;
+    flex-wrap: wrap;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact .contactinfo{
+    max-width: 800px;
+}
+
+.sign-up-form{
+    margin-right: 250px;
+    margin-top: 0px;
+    
+}
+
+input{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+textarea{
+    padding:5px;
+    border-radius: 5px;
+}
+
+img{
+    backdrop-filter: blur(5px);
+}
+
+
